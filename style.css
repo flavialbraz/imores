@@ -695,11 +695,11 @@ span.placeholder {
         font-size: 1.36rem;
     }
     
-    .titulo-header h6:before {
-        margin-top: 9px;
-        right: 36px;
-        width: 47px;
-    }
+  .titulo-header h6:before {
+    margin-top: 9px;
+    right: 36px;
+    width: 18%;
+}
     
     .cultura h1 {
         font-size: 3rem;
@@ -827,5 +827,24 @@ label.btn.close-btn {
     height: auto;
 }
 
+.pesquisa button {
+    width: 100%;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+span.placeholder {
+    height: 100%;
+    line-height: 16px;
+    padding-top: 42px;
+}
+
+input#s {
+    height: 100px;
+}
+
+.pesquisa {
+    margin-top: 20px;
+}
 
 }
