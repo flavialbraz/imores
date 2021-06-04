@@ -673,12 +673,13 @@ span.placeholder {
         text-align: center;
     }
      
-    .header {
-        height: 0;
-        background-size: cover;
-        padding-bottom: 156%;
-        background-position-x: -42px;
-    }
+.header {
+    height: 0;
+    background-size: cover;
+    padding-bottom: 156%;
+    background-position: top center;
+    background-position-x: -279px;
+}
     
     .redes-site {
         position: absolute;
