@@ -114,7 +114,7 @@ b, strong {
 }
 
 .header {
-    height: 818px;
+    height: 864px;
     background: url(images/header.png) top center;
     position: relative;
 }
@@ -161,7 +161,7 @@ i.fas.fa-angle-double-down {
     color: rgb(255, 255, 255);
     line-height: 1.2;
     text-align: left;
-    margin-top: -662px;
+    margin-top: -630px;
     position: absolute;
     width: 43%;
     right: 0px;
