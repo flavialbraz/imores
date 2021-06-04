@@ -335,7 +335,7 @@ i.fab.fa-facebook-f, i.fab.fa-youtube, i.fab.fa-instagram {
     font-size: 0.99rem;
     font-family: "Montserrat";
     color: rgb(255, 255, 255);
-    font-weight: bold;
+    font-weight: 800;
     line-height: 40px;
     letter-spacing: 2px;
     padding-left: 34px;
@@ -366,7 +366,7 @@ i.fab.fa-facebook-f, i.fab.fa-youtube, i.fab.fa-instagram {
     font-size: 0.91rem;
     font-family: "Montserrat";
     color: rgb(14, 70, 252);
-    font-weight: bold;
+    font-weight: 800;
     padding: 12px;
     text-align: center;
     letter-spacing: 1px;
