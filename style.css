@@ -1,4 +1,4 @@
- html {
+html {
     scroll-behavior: smooth;
   }
 
@@ -644,15 +644,288 @@ span.placeholder {
     font-weight: 500;
     letter-spacing: 1px;
 }
-@media only screen and (max-width:800px) { 
 
+.pag-quem {
+    background: url(images/header2.png);
+    height: 268px;
+    padding: 70px;
+}
+
+.pag-quem h1 {
+    font-size: 2.4rem;
+    font-family: "DINPro";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+    width: 46%;
+    font-weight: 400;
+}
+
+.pag-quem strong {
+    border-bottom: 2px solid var(--azul);
+    line-height: 39px;
+    display: inline-block;
+}
+
+.area-quem-somos {
+    background: url(images/digital.png) top right no-repeat #fff;
+    padding: 40px;
+}
+
+.area-quem-somos h1 {
+    font-size: 3.84rem;
+    font-family: "DINPro";
+    color: rgb(11, 67, 252);
+    font-weight: bold;
+    display: block;
+    width: 50%;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.area-quem-somos p {
+    color: #000;
+    font-family: "DINPro";
+    width: 79%;
+    display: block;
+    font-size: 1.2rem;
+}
+ 
+
+.area-quem-somos p strong {
+    font-family: "DINPro";
+    font-weight: bold;
+}
+
+
+.area-quem-somos h1:before {
+    border-bottom: 2px solid var(--azul);
+    content: "";
+    position: absolute;
+    width: 149px;
+    margin-top: 68px;
+    margin-left: 8px;
+}
+
+.area-quem-somos h1:after {
+    border-bottom: 2px solid var(--azul);
+    content: "";
+    position: absolute;
+    width: 174px;
+    margin-top: 68px;
+    right: 109px;
+}
+
+.numeros-experiencias {
+    width: 43%;
+    font-family: "DINPro";
+}
+
+ 
+.numeros-experiencias span {
+    color: var(--azul);
+    font-size: 1.4rem;
+}
+
+.numeros-experiencias h1 strong {
+    color: var(--azul);
+    font-weight: bold;
+    font-size: 6.87rem;
+}
+
+.numeros-experencinas-mais strong {
+    color: var(--azul);
+    font-weight: bold;
+    font-size: 6.87rem;
+}
+
+ 
+
+.numeros-experencinas-mais p {
+    color: var(--azul);
+    font-size: 1.4rem;
+    display: inline-block;
+    width: 29%;
+    vertical-align: super;
+    line-height: 22px;
+}
+
+.numeros-experencinas-mais p strong {
+    color: var(--azul);
+    font-size: 1.4rem;
+}
+
+.numeros-experencinas-mais p:after {
+    border-bottom: 2px solid var(--azul);
+    content: "";
+    width: 31%;
+    height: 1px;
+    left: 1px;
+    position: absolute;
+    margin-top: 56px;
+}
+
+.pag-quem-experiencia {
+    background: url(images/backpreto.png) top left no-repeat;
+    padding: 48px;
+}
+
+.pag-quem-cursos {
+    font-size: 50px;
+    font-family: "DINPro";
+    line-height: 1.1;
+    background: #fff;
+    padding: 40px;
+}
+
+.pag-quem-cursos h3 {
+    color: #000;
+    font-size: 1.153rem;
+    font-weight: bold;
+    width: 42%;
+    margin-left: 157px;
+    display: inline-block;
+}
+
+.pag-quem-cursos a {
+    color: var(--azul);
+    background: #fff;
+    font-size: .91rem;
+    font-family: "Montserrat";
+    font-weight: 800;
+    border: rgb(210, 210, 210) 1px solid;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-right: 122px;
+    display: block;
+    width: 15%;
+    padding: 10px 6px;
+    line-height: 18px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.pag-quem-inscreva {
+    background: url(images/digital2.png) top left no-repeat #f2f2f2;
+    padding: 45px;
+}
+
+.pag-quem-inscreva h1 {
+    font-size: 1.5rem;
+    font-family: "DINPro";
+    color: #6d6d6d;
+    line-height: 1.43;
+    width: 33%;
+    font-weight: bold;
+}
+
+.pag-quem-inscreva h1 strong {
+    color: var(--azul);
+    font-weight: bold;
+}
+
+.pag-quem-inscreva a {
+    color: var(--azul);
+    background: #fff;
+    font-size: .81rem;
+    font-family: "Montserrat";
+    font-weight: 800;
+    border: rgb(210, 210, 210) 1px solid;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-right: 122px;
+    display: block;
+    padding: 10px 4px;
+    line-height: 18px;
+    width: 126px;
+    margin-top: 26px;
+}
+
+.pag-quem-video {
+    width: 60%;
+    background: #fff;
+    height: 302px;
+    overflow: hidden;
+}
+
+.pag-quem-video iframe {
+    height: 100%;
+}
+ 
+.icone-youtube-pag-quem {
+    width: 100%;
+    height: 63px;
+    background: url(images/youtube.png) top left no-repeat;
+    background-position-x: -8px;
+}
+
+.icones-valores-pag-quem {
+    width: 55%;
+    height: 441px;
+    background: url(images/valores.png) top center no-repeat;
+    position: relative;
+}
+ 
+.icones-valores-pag-quem2 {
+    background: url(images/cirdots.png) no-repeat;    position: absolute;
+    width: 232px;
+    height: 247px;
+    position: absolute;
+    top: 97px;
+    left: 127px;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    animation: animate2 6s cubic-bezier(0.46, 0.03, 0.52, 0.96) infinite;
+}
+.numeros-experiencias h1 {
+    font-size: 6.16rem;
+    font-weight: bold;
+    letter-spacing: -7px;
+    display: inline-block;
+    margin-right: 19px;
+    vertical-align: sub;
+    animation: counter 6s cubic-bezier(0.46, 0.03, 0.52, 0.96) infinite;
+
+}
+
+@keyframes animate2 {
+    0% {
+        transform: rotateY(10deg);
+    }
+    40% {
+        transform: rotateY(40deg);
+    }
+      100% {
+        transform: rotateY(10deg);
+    }
+
+}
+ 
   
+.pag-quem-cursos a:hover, .pag-quem-inscreva a:hover {
+    background: var(--azul);
+    color: #fff;
+}
+
+@media only screen and (max-width:800px) { 
+    .icones-valores-pag-quem2 {
+        display: none;
+    }
+
+    .icones-valores-pag-quem {
+        background-size: 100%;
+        margin-top: 65px;
+        height: 280px;
+    }
+
     .row, .menu,  i.fas.fa-times, label.btn.close-btn, i.fas.fa-bars {
         display: block;
     }
   
 
-    .cultura, .video-inicio, .box-solucoes, .agenda, .desen-projetos-suc, .logo2, .f-box, .f-box-dois, .menu, .menu ul, .consultoria-home h1, .f-box-dois strong {
+    .numeros-experencinas-mais p, .numeros-experencinas-mais p:after, .icones-valores-pag-quem, .pag-quem-video, .pag-quem-inscreva h1, .pag-quem-cursos h3,  .numeros-experiencias, .pag-quem h1, .area-quem-somos p, .cultura, .video-inicio, .box-solucoes, .agenda, .desen-projetos-suc, .logo2, .f-box, .f-box-dois, .menu, .menu ul, .consultoria-home h1, .f-box-dois strong {
         width: 100%;
     }
     
@@ -809,7 +1082,16 @@ label.btn.menu-btn {
     margin-left: -36px;
 }
 
-label.btn.close-btn {font-size: 1rem;background: #0000000f;padding: 2px 15px;border-radius: 100px;text-align: left;margin-bottom: 15px;display: block;width: max-content;}
+label.btn.close-btn {
+    font-size: 1rem;
+    background: #0000000f;
+    padding: 2px 15px;
+    border-radius: 100px;
+    text-align: left;
+    margin-bottom: 15px;
+    display: block;
+    width: max-content;
+}
  
 .menu {
     height: 101px;
@@ -850,5 +1132,51 @@ input#s {
 i.fas.fa-times {
     font-size: 16px;
 }
+ .icone-youtube-pag-quem {
+    width: 100%;
+    height: 63px;
+    background: url(images/youtube.png) top left no-repeat;
+}
+
+.area-quem-somos h1 {
+    width: 100%;
+    border-bottom: 2px solid var(--azul);
+    font-size: 2.84rem;
+    text-align: center;
+}
+
+.area-quem-somos h1:before, .area-quem-somos h1:after {
+    content: "";
+    display: none;
+}
+
+.pag-quem-inscreva, .pag-quem-cursos, .area-quem-somos, .pag-quem, .pag-quem-experiencia {
+    padding: 15px;
+}
+
  
+.pag-quem h1 {
+    font-size: 2rem;
+}
+
+.pag-quem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.numeros-experencinas-mais {
+    text-align: center;
+}
+
+ 
+.pag-quem-cursos h3 {
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.pag-quem-cursos a, .pag-quem-inscreva a {
+    width: 100%;
+    text-align: center;
+}
 }
