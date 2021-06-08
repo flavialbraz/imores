@@ -646,7 +646,7 @@ span.placeholder {
 }
 
 .pag-quem {
-    background: url(images/header2.png);
+    background: url(images/header2.png) top center;
     height: 268px;
     padding: 70px;
 }
@@ -1156,7 +1156,7 @@ i.fas.fa-times {
 
  
 .pag-quem h1 {
-    font-size: 2rem;
+    font-size: 1.9rem;
 }
 
 .pag-quem {
