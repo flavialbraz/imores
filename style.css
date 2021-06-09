@@ -1492,7 +1492,11 @@ span.placeholder {
         font-size: 1.7rem;
         margin-bottom: 0px;
         padding: 10px;
-    }
+    border-bottom: 1px solid var(--azul);
+    border-right: none;
+    margin-bottom: 10px;
+}
+    
     .artigo-titulo {
         margin-top: -40px;
     }
