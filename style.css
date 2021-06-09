@@ -640,9 +640,9 @@ span.placeholder {
     text-align: center;
     line-height: 43px;
     font-size: 0.6rem;
-    color: #00000091;
+    color: #0000006e;
     font-weight: 500;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
 }
 
 .pag-quem {
@@ -904,7 +904,7 @@ span.placeholder {
 }
  
   
-.pag-quem-cursos a:hover, .pag-quem-inscreva a:hover {
+.pag-quem-cursos a:hover, .pag-quem-inscreva a:hover, .blog-pag-destaques h6:hover, .todas-postagens-blog h6:hover {
     background: var(--azul);
     color: #fff;
 }
@@ -1009,9 +1009,10 @@ span.placeholder {
     position: relative;
     margin-bottom: 25px;
 }
+
 .pag-consultoria-atuacao {
     background: url(images/atuacao.png) no-repeat;
-    width: 38.6%;
+    width: 38%;
     height: 576px;
     margin-top: -117px;
 }
@@ -1043,12 +1044,6 @@ span.placeholder {
     font-family: "DINPro";
 }
 
-.check-indicada a:hover, .area-ataucao a:hover {
-    background: var(--azul);
-    color: #fff;
-    border-color: var(--azul);
-}
-
 .indicada-pag-consultoria h1 {
     font-size: 2.5rem;
     color: rgb(255, 255, 255);
@@ -1056,7 +1051,6 @@ span.placeholder {
     text-align: left;
     width: 36%;
     font-weight: 400;
-    margin-top: 45px;
 }
 
 .indicada-pag-consultoria span {
@@ -1105,7 +1099,376 @@ span.placeholder {
     margin-right: 13px;
     margin-top: 3px;
 }
+
+.pag-blog {
+    background: url(images/header5.png);
+    height: 268px;
+    padding: 70px;
+}
+
+.pag-blog h1 {
+    font-size: 2.4rem;
+    font-family: "DINPro";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+    width: 46%;
+    font-weight: 400;
+}
+.pag-blog strong {
+    border-bottom: 2px solid var(--azul);
+    line-height: 39px;
+    display: inline-block;
+}
+
+.blog-pag-destaques {
+    padding: 30px;
+    background: url(images/digital.png) top right no-repeat #fff;
+}
+
+
+.blog-pag-destaques h6 {
+    color: var(--azul);
+    background: #fff;
+    font-size: .83rem;
+    font-family: "Montserrat";
+    font-weight: 800;
+    border: rgb(210, 210, 210) 1px solid;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 122px;
+    display: block;
+    padding: 8px 20px;
+    line-height: 21px;
+    margin: auto;
+    margin-bottom: 30px;
+    width: max-content;
+}
+
+.box-destaque {
+    width: 32%;
+    position: relative;
+}
+
+.box-destaque-titulo {
+    background:#02050a;
+    padding: 30px;
+    height: 192px;
+    text-align: left;
+    font-family: "DINPro";
+    font-size: 1.2rem;
+    font-weight: normal;
+    position: relative;
+}
+
+.box-destaque-titulo span {
+    color: var(--azul);
+    font-weight: bold;
+}
+
+.imagem-box-destaque {
+    height: 140px;
+    overflow: hidden;
+}
+
+.imagem-box-destaque img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.ler-mais-blog {
+    display: block;
+    width: 56px;
+    height: 56px;
+    background-color: var(--azul);
+    text-align: center;
+    font-family: "DINPro";
+    border-radius: 100px;
+    border: 5px solid #fff;
+    color: #fff;
+    font-size: 1.7rem;
+    line-height: 38px;
+    position: absolute;
+    bottom: -14px;
+    margin-left: 39%;
+}
  
+
+.todas-postagens-blog {
+    background: #eeeeee;
+    padding: 30px;
+}
+
+.todas-postagens-blog h6 {
+    color: var(--azul);
+    background: #fff;
+    font-size: .83rem;
+    font-family: "Montserrat";
+    font-weight: 800;
+    border: rgb(210, 210, 210) 1px solid;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 122px;
+    display: block;
+    padding: 8px 20px;
+    line-height: 21px;
+    margin: auto;
+    margin-bottom: 30px;
+    width: max-content;
+    margin-right: 14px;
+}
+
+.todas-postagens-blog .pesquisa {
+    width: 80.7%;
+}
+
+.imagem-box-postagem-normal {
+    height: 210px;
+    background: #000;
+    overflow: hidden;
+}
+
+.imagem-box-postagem-normal img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box-postagem-normal-titulo {
+    padding: 40px;
+    height: 192px;
+    text-align: left;
+    font-family: "DINPro";
+    font-size: 1.3rem;
+    font-weight: normal;
+    position: relative;
+    background: #fff;
+    color: #02050a;
+}
+
+.box-postagem-normal-titulo span {
+    color: var(--azul);
+    font-weight: bold;
+}
+
+.box-postagens-normal {
+    width: 49%;
+    position: relative;
+}
+
+.box-postagens-normal:nth-child(3) {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+ 
+
+.box-postagens-normal:nth-child(3) .imagem-box-postagem-normal {
+    background: #fff;
+    width: 57%;
+    height: 315px;
+}
+
+.box-postagens-normal:nth-child(3)  .box-postagem-normal-titulo {
+    height: 315px;
+    font-size: 1.80rem;
+    width: 69%;
+    letter-spacing: -1px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.box-postagens-normal:nth-child(3) .ler-mais-blog {
+    right: -32px;
+    top: 40%;
+    font-size: 1.8rem;
+    margin-left: 45%;
+    width: 65px;
+    height: 65px;
+    line-height: 51px;
+}
+
+.box-postagens-normal:nth-child(4) .ler-mais-blog, .box-postagens-normal:nth-child(5) .ler-mais-blog {
+    font-size: 1.8rem;
+    margin-left: 44%;
+    width: 65px;
+    height: 65px;
+    line-height: 51px;
+}
+
+.box-destaque:hover .imagem-box-destaque img {
+    filter: brightness(0.5);
+}
+
+.box-destaque:hover .ler-mais-blog, .box-postagens-normal:hover .ler-mais-blog, .footer-artigo .box-postagens-normal:nth-child(3):hover .ler-mais-blog {
+    background: #040608;
+    color: var(--azul);
+}
+.artigo-container {
+    background: url(images/digital3.png) bottom right no-repeat #f0f0f0;
+    padding: 30px;
+}
+
+.artigo-titulo {
+    background: #011923;
+    padding: 45px;
+    margin-top: -90px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 35px;
+}
+
+.artigo {
+    font-family: "DINPro";
+}
+
+.artigo-titulo span {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-family: 'Montserrat';
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.artigo-titulo a {
+    color: var(--azul);
+}
+
+ 
+.data-artigo {
+    width: 26%;
+    border-right: 1px solid var(--azul);
+    padding: 15px;
+    font-size: 2.6rem;
+    font-weight: 900;
+    color: var(--azul);
+    font-family: 'Montserrat';
+    margin-right: 25px;
+}
+
+.artigo-titulo h1 {
+    width: 68%;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.footer-titulo {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.67rem;
+    font-family: 'Montserrat';
+    letter-spacing: 1px;
+    margin-top: 21px;
+}
+
+.artigo-texto {
+    background: #fff;
+    padding: 30px;
+    color: #161616;
+    font-family: "DINPro";
+    font-size: 1.2rem;
+    line-height: 35px;
+    width: 78%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.artigo-texto p {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-artigo {
+    background: #e2e0e0;
+    padding: 50px;
+}
+
+.footer-artigo h6 {
+    color: var(--azul);
+    background: #fff;
+    font-size: .83rem;
+    font-family: "Montserrat";
+    font-weight: 800;
+    border: rgb(210, 210, 210) 1px solid;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    padding: 8px 20px;
+    line-height: 21px;
+    margin: auto;
+    margin-bottom: 30px;
+    width: max-content;
+}
+
+.footer-artigo .box-postagens-normal:nth-child(3) {
+    width: 49%;
+    position: relative;
+    display: block;
+}
+
+.footer-artigo .box-postagens-normal:nth-child(3) .imagem-box-postagem-normal {
+    height: 210px;
+    width: 100%;
+}
+
+.footer-artigo .box-postagens-normal:nth-child(3) .box-postagem-normal-titulo {
+    height: 192px;
+    font-size: 1.3rem;
+    width: 100%;
+}
+
+.footer-artigo .box-postagens-normal:nth-child(3) .ler-mais-blog {
+    display: block;
+    width: 56px;
+    height: 56px;
+    background-color: var(--azul);
+    text-align: center;
+    font-family: "DINPro";
+    border-radius: 100px;
+    border: 5px solid #fff;
+    color: #fff;
+    font-size: 1.7rem;
+    line-height: 38px;
+    position: absolute;
+    margin-left: 45%;
+    right: unset;
+    bottom: -14px;
+    top: unset;
+}
+
+.footer-artigo-leia {
+    width: 100%;
+    text-align: center;
+    margin-top: -71px;
+}
+
+.footer-artigo .box-postagens-normal:nth-child(2) .ler-mais-blog {
+    margin-left: 42%;
+    bottom: 5px;
+}
+ 
+
+.footer-artigo .pesquisa {
+    width: 86%;
+    margin: auto;
+    margin-top: 30px;
+}
+
 @media only screen and (max-width:800px) { 
     .icones-valores-pag-quem2 {
         display: none;
@@ -1117,25 +1480,48 @@ span.placeholder {
         height: 280px;
     }
 
-    .row, .menu,  i.fas.fa-times, label.btn.close-btn, i.fas.fa-bars {
+    .box-postagens-normal:nth-child(3), .footer-artigo .box-postagens-normal:nth-child(3) .box-postagem-normal-titulo, .artigo-titulo, .row, .menu,  i.fas.fa-times, label.btn.close-btn, i.fas.fa-bars {
         display: block;
     }
    
+     .artigo-titulo {
+        border: none;
+        text-align: center;
+    }
+    .data-artigo {
+        font-size: 1.7rem;
+        margin-bottom: 0px;
+        padding: 10px;
+    }
+    .artigo-titulo {
+        margin-top: -40px;
+    }
 
-    .pag-atuacao h1, .check-indicada, .indicada-pag-consultoria h1, .atuacaonumeros h1, .pag-consultoria-atuacao, .pag-atuacao, .area-ataucao h1, .area-ataucao a, .area-ataucao p, .numeros-experencinas-mais p, .numeros-experencinas-mais p:after, .icones-valores-pag-quem, .pag-quem-video, .pag-quem-inscreva h1, .pag-quem-cursos h3,  .numeros-experiencias, .pag-quem h1, .area-quem-somos p, .cultura, .video-inicio, .box-solucoes, .agenda, .desen-projetos-suc, .logo2, .f-box, .f-box-dois, .menu, .menu ul, .consultoria-home h1, .f-box-dois strong {
+    .ler-mais-blog, .footer-artigo .box-postagens-normal:nth-child(2) .ler-mais-blog, .footer-artigo .box-postagens-normal:nth-child(3) .ler-mais-blog {
+        display: none;
+    }
+    .box-postagens-normal:nth-child(3) .box-postagem-normal-titulo {
+        font-size: 1.3rem;
+        height: 192px;
+    }
+
+    .box-postagens-normal:nth-child(3) .box-postagem-normal-titulo, .box-postagens-normal:nth-child(3), .todas-postagens-blog h6, .todas-postagens-blog .pesquisa, .box-destaque, .footer-artigo .pesquisa, .footer-artigo .box-postagens-normal:nth-child(3), .box-postagens-normal:nth-child(3) .imagem-box-postagem-normal,  .box-postagens-normal:nth-child(3) .box-postagem-normal-titulo, .box-postagens-normal, .artigo-texto, .artigo-titulo h1, .data-artigo, .pag-blog h1, .pag-atuacao h1, .check-indicada, .indicada-pag-consultoria h1, .atuacaonumeros h1, .pag-consultoria-atuacao, .pag-atuacao, .area-ataucao h1, .area-ataucao a, .area-ataucao p, .numeros-experencinas-mais p, .numeros-experencinas-mais p:after, .icones-valores-pag-quem, .pag-quem-video, .pag-quem-inscreva h1, .pag-quem-cursos h3,  .numeros-experiencias, .pag-quem h1, .area-quem-somos p, .cultura, .video-inicio, .box-solucoes, .agenda, .desen-projetos-suc, .logo2, .f-box, .f-box-dois, .menu, .menu ul, .consultoria-home h1, .f-box-dois strong {
         width: 100%;
     }
     
-    .box-solucoes {
+    .footer-titulo {
+        line-height: 20px;
+    }
+
+    .box-solucoes, .todas-postagens-blog .pesquisa {
         margin-bottom: 20px;
     }
     
     .container {
         width: 90%;
     }
-     
     
-    .video-inicio, .box-solucoes {
+    .video-inicio, .box-solucoes, .pag-blog {
         height: auto;
     }
     
@@ -1198,7 +1584,7 @@ span.placeholder {
         display: block;
     }
 
-    .box-solucoes h1 {
+    .box-solucoes h1, .pag-blog h1 {
         font-size: 1.4rem;
         margin-bottom: 20px;
     }
@@ -1352,7 +1738,7 @@ i.fas.fa-times {
     background-size: contain;
     height: 493px;
 }
-.pag-atuacao, .pag-quem-inscreva, .pag-quem-cursos, .area-quem-somos, .pag-quem, .pag-quem-experiencia, .area-ataucao, .indicada-pag-consultoria {
+.artigo-titulo, .pag-blog, .pag-atuacao, .pag-quem-inscreva, .pag-quem-cursos, .area-quem-somos, .pag-quem, .pag-quem-experiencia, .area-ataucao, .indicada-pag-consultoria {
     padding: 15px;
 }
 
@@ -1398,7 +1784,5 @@ i.fas.fa-times {
 .atuacaonumeros h1 {
     width: 47%;
 }
-.indicada-pag-consultoria h1 {
-    margin-top: 0px;
-}
+
 }
