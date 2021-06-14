@@ -1,4 +1,12 @@
- 
+ 			
+$(".slider").slick({
+    speed: 200,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  nextArrow: '<button class="seta-next"></button>',
+  prevArrow: '<button class="seta-previous"></button>'
+  });
+
 ScrollReveal().reveal('.item .area-quem-somos, .icones-valores-pag-quem, .pag-quem-inscreva h1, .pag-quem-experiencia h6, .check-indicada a ', {
      duration: 1000, distance: '100px',   opacity: 0 ,  
     reset: true
