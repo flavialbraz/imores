@@ -651,7 +651,7 @@ span.placeholder {
     padding: 70px;
 }
 
-.pag-quem h1 {
+.pag-quem h1, .pag-vagas h1, .pag-ed-executiva  h1 {
     font-size: 2.4rem;
     font-family: "DINPro";
     color: rgb(255, 255, 255);
@@ -661,7 +661,7 @@ span.placeholder {
     font-weight: 400;
 }
 
-.pag-quem strong {
+.pag-quem strong, .pag-vagas h1 strong, .pag-ed-executiva h1 strong {
     border-bottom: 2px solid var(--azul);
     line-height: 39px;
     display: inline-block;
@@ -1312,7 +1312,7 @@ span.placeholder {
     background: #040608;
     color: var(--azul);
 }
-.artigo-container {
+.artigo-container, .vagas-pag, .ed-executiva-pag   {
     background: url(images/digital3.png) bottom right no-repeat #f0f0f0;
     padding: 30px;
 }
@@ -1468,6 +1468,247 @@ span.placeholder {
     margin: auto;
     margin-top: 30px;
 }
+ 
+.pag-vagas {
+    background: url(images/header6.png) top center;
+    height: 300px;
+    padding: 70px;
+}
+ 
+.vagas-box {
+    width: 48%;
+}
+
+.vagas-image {
+    height: 220px;
+    background: #000;
+}
+
+.infos-sobre-vagas {
+    height: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #fff;
+    font-family: "DINPro";
+    padding: 21px;
+    position: relative;
+    align-content: flex-start;
+    margin-bottom: 40px;
+}
+
+.infos-sobre-vagas h1 {
+    font-size: 2rem;
+    color: rgb(14, 70, 252);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0px;
+    margin-bottom: 11px;
+}
+
+.infos-sobre-vagas p {
+    color: #a4a3a3;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.infos-sobre-vagas a {
+    background: var(--azul);
+    color: #fff;
+    font-size: .83rem;
+    font-family: "Montserrat";
+    font-weight: 800;
+    border: rgb(210, 210, 210) 1px solid;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    padding: 8px 20px;
+    line-height: 21px;
+    margin: auto;
+    margin-bottom: 30px;
+    width: max-content;
+    position: absolute;
+    bottom: -51px;
+}
+
+.text-mais-vagas {background: #fff url(images/digitalvagas.png) top left no-repeat;padding: 34px 76px;color: #000000;border: 1px solid #00000021;line-height: 19px;font-size: 0.9rem;margin-bottom: 20px;text-align: justify;}
+
+.vagas-leia h6 {
+    color: var(--azul);
+    background: #fff;
+    font-size: .83rem;
+    font-family: "Montserrat";
+    font-weight: 800;
+    border: rgb(210, 210, 210) 1px solid;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    padding: 8px 20px;
+    line-height: 21px;
+    margin: auto;
+    margin-bottom: 30px;
+    width: max-content;
+}
+
+.vagas-leia {
+    width: 100%;
+}
+
+.text-mais-vagas strong {
+    color: var(--azul);
+}
+
+.pag-ed-executiva h1 {
+    width: 56%;
+}
+
+.text-mais-infos {
+    background: #fff;
+    padding: 25px 35px 25px 162px;
+    color: #00000082;
+    border: 1px solid #00000021;
+    line-height: 21px;
+    font-size: 0.89rem;
+    margin-bottom: 20px;
+    text-align: justify;
+    position: relative;
+}
+ 
+ 
+.text-mais-infos:before {
+    background: #fff0 url(images/cursos.png) top left no-repeat;
+    position: absolute;
+    left: -5px;
+    content: "";
+    width: 146px;
+    height: 148px;
+    top: -13px;
+}
+.text-mais-infos strong {
+    color: var(--azul);
+}
+
+.cursos-box {
+    width: 24%;
+}
+
+.curso-image {
+    height: 315px;
+    background: #000;
+    margin-bottom: 14px;
+}
+
+.cursos-box h1 {
+    color: var(--azul);
+    background: #fff;
+    font-size: .60rem;
+    font-family: "Montserrat";
+    font-weight: 800;
+    border: rgb(210, 210, 210) 1px solid;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 8px 20px;
+    line-height: 12px;
+    margin: auto;
+    margin-bottom: 30px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.cursos-box:hover .curso-image img {
+    filter: brightness(0.5);
+}
+
+.cursos-box:hover .cursos-box h1 {
+    background: #000;
+    color: #fff;
+}
+
+.imagem-treinamento {
+    width: 73%;
+    height: 380px;
+    background: #ddd;
+    margin-right: -66px;
+}
+
+.titulo-treinamentos-p {
+    font-family: "DINPro";
+    font-weight: bold;
+    background: #fff;
+    padding: 26px;
+    position: relative;
+    margin-top: 21px;
+    height: max-content;
+    margin-bottom: 11px;
+}
+
+.titulo-treinamentos-p p {
+    color: rgb(102 102 102 / 78%);
+    font-size: 0.99rem;
+    font-weight: normal;
+}
+
+.titulo-treinamentos-p h1 {
+    color: var(--azul);
+    font-size: 1.6rem;
+    line-height: 26px;
+}
+
+.eu-quero {
+    font-family: "DINPro";
+    background: #011923;
+    padding: 28px;
+}
+
+.eu-quero h1 {
+    font-size: 1.43rem;
+}
+
+.eu-quero h1 > strong {color: var(--azul);}
+
+.eu-quero a {
+    color: #00000063;
+    background: #fff;
+    font-size: .80rem;
+    font-family: "Montserrat";
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    padding: 8px 20px;
+    line-height: 21px;
+    width: max-content;
+}
+
+.box-ed-executiva-querotrinamento {
+    width: 33%;
+    margin-right: 0px;
+}
+ 
+
+.pag-ed-executiva {
+    background: url(images/header7.png) top center;
+    height: 255px;
+    padding: 50px;
+}
+
+.titulo-treinamentos-p:before {
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid white;
+    content: "";
+    position: absolute;
+    left: -15px;
+    margin-top: 13%;
+}
 
 @media only screen and (max-width:800px) { 
     .icones-valores-pag-quem2 {
@@ -1492,11 +1733,7 @@ span.placeholder {
         font-size: 1.7rem;
         margin-bottom: 0px;
         padding: 10px;
-    border-bottom: 1px solid var(--azul);
-    border-right: none;
-    margin-bottom: 10px;
-}
-    
+    }
     .artigo-titulo {
         margin-top: -40px;
     }
@@ -1509,7 +1746,7 @@ span.placeholder {
         height: 192px;
     }
 
-    .box-postagens-normal:nth-child(3) .box-postagem-normal-titulo, .box-postagens-normal:nth-child(3), .todas-postagens-blog h6, .todas-postagens-blog .pesquisa, .box-destaque, .footer-artigo .pesquisa, .footer-artigo .box-postagens-normal:nth-child(3), .box-postagens-normal:nth-child(3) .imagem-box-postagem-normal,  .box-postagens-normal:nth-child(3) .box-postagem-normal-titulo, .box-postagens-normal, .artigo-texto, .artigo-titulo h1, .data-artigo, .pag-blog h1, .pag-atuacao h1, .check-indicada, .indicada-pag-consultoria h1, .atuacaonumeros h1, .pag-consultoria-atuacao, .pag-atuacao, .area-ataucao h1, .area-ataucao a, .area-ataucao p, .numeros-experencinas-mais p, .numeros-experencinas-mais p:after, .icones-valores-pag-quem, .pag-quem-video, .pag-quem-inscreva h1, .pag-quem-cursos h3,  .numeros-experiencias, .pag-quem h1, .area-quem-somos p, .cultura, .video-inicio, .box-solucoes, .agenda, .desen-projetos-suc, .logo2, .f-box, .f-box-dois, .menu, .menu ul, .consultoria-home h1, .f-box-dois strong {
+  .cursos-box, .box-ed-executiva-querotrinamento, .imagem-treinamento, .pag-ed-executiva h1, .vagas-leia h6, .pag-vagas h1, .vagas-box, .box-postagens-normal:nth-child(3) .box-postagem-normal-titulo, .box-postagens-normal:nth-child(3), .todas-postagens-blog h6, .todas-postagens-blog .pesquisa, .box-destaque, .footer-artigo .pesquisa, .footer-artigo .box-postagens-normal:nth-child(3), .box-postagens-normal:nth-child(3) .imagem-box-postagem-normal,  .box-postagens-normal:nth-child(3) .box-postagem-normal-titulo, .box-postagens-normal, .artigo-texto, .artigo-titulo h1, .data-artigo, .pag-blog h1, .pag-atuacao h1, .check-indicada, .indicada-pag-consultoria h1, .atuacaonumeros h1, .pag-consultoria-atuacao, .pag-atuacao, .area-ataucao h1, .area-ataucao a, .area-ataucao p, .numeros-experencinas-mais p, .numeros-experencinas-mais p:after, .icones-valores-pag-quem, .pag-quem-video, .pag-quem-inscreva h1, .pag-quem-cursos h3,  .numeros-experiencias, .pag-quem h1, .area-quem-somos p, .cultura, .video-inicio, .box-solucoes, .agenda, .desen-projetos-suc, .logo2, .f-box, .f-box-dois, .menu, .menu ul, .consultoria-home h1, .f-box-dois strong {
         width: 100%;
     }
     
@@ -1525,7 +1762,7 @@ span.placeholder {
         width: 90%;
     }
     
-    .video-inicio, .box-solucoes, .pag-blog {
+   .pag-ed-executiva, .pag-vagas, .video-inicio, .box-solucoes, .pag-blog {
         height: auto;
     }
     
@@ -1742,7 +1979,7 @@ i.fas.fa-times {
     background-size: contain;
     height: 493px;
 }
-.artigo-titulo, .pag-blog, .pag-atuacao, .pag-quem-inscreva, .pag-quem-cursos, .area-quem-somos, .pag-quem, .pag-quem-experiencia, .area-ataucao, .indicada-pag-consultoria {
+.pag-ed-executiva, .pag-vagas, .artigo-titulo, .pag-blog, .pag-atuacao, .pag-quem-inscreva, .pag-quem-cursos, .area-quem-somos, .pag-quem, .pag-quem-experiencia, .area-ataucao, .indicada-pag-consultoria {
     padding: 15px;
 }
 
@@ -1788,5 +2025,26 @@ i.fas.fa-times {
 .atuacaonumeros h1 {
     width: 47%;
 }
+.infos-sobre-vagas a {
+    font-size: 0.6rem;
+    padding: 5px 19px;
+}
 
+.text-mais-vagas {
+    padding: 28px;
+    background: #fff url(images/digitalvagas.png) left bottom no-repeat;
+}
+
+.text-mais-infos {
+    padding: 31px;
+    padding-top: 140px;
+}
+ 
+.titulo-treinamentos-p:before {
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #fff;
+    margin-top: -19%;
+    left: 42%;
+}
 }
