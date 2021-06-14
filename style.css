@@ -1578,9 +1578,10 @@ span.placeholder {
     color: #000000;
     border: 1px solid #00000021;
     line-height: 19px;
-    font-size: 0.99rem;
     margin-bottom: 20px;
     text-align: justify;
+    font-size: 0.99rem;
+    position: relative;
     font-family: "DINPro";
 }
 
