@@ -1101,7 +1101,7 @@ span.placeholder {
 }
 
 .pag-blog {
-    background: url(images/header5.png) top center;
+    background: url(images/header5.png);
     height: 268px;
     padding: 70px;
 }
@@ -1464,6 +1464,7 @@ span.placeholder {
  
 
 .footer-artigo .pesquisa {
+    width: 86%;
     margin: auto;
     margin-top: 30px;
 }
@@ -1900,6 +1901,10 @@ button.seta-next.slick-arrow {
         text-align: center;
     }
      
+    .descricao-curso p, .descricao-curso h1 {
+        font-size: 1.2rem;
+    }
+    
 .header {
     height: 0;
     background-size: cover;
