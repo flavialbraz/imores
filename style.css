@@ -446,7 +446,18 @@ input#s {
     text-align: left;
 }
 
-
+.text-mais-infos:before {
+        animation: mudaback 1s infinite;
+        animation-direction: alternate;
+        animation-name: mudaback;
+}
+@-webkit-keyframes mudaback {
+  0% {
+   filter:grayscale(0);
+}
+  100% {
+  filter:grayscale(0.60);}
+}
 .consultoria-home h1 > a {
     display: block;
     font-size: .99rem;
