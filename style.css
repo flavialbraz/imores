@@ -241,7 +241,28 @@ i.fab.fa-facebook-f, i.fab.fa-youtube, i.fab.fa-instagram {
     height: 315px;
     margin-left: -75px;
 }
+ .text-mais-infos::after {
+        background: url(images/cursos2.png) top center no-repeat;
+        position: absolute;
+        left: -7px;
+        content: "";
+        width: 143px;
+        height: 105px;
+        top: 9px;
+        animation: pulse 1s infinite;
+        margin: 0 auto;
+        display: table;
+        animation-direction: alternate;
+        animation-name: pulse;
+}
 
+@-webkit-keyframes pulse {
+  0% {
+    transform: scale(0.8);
+}
+  100% {
+   transform: scale(0.85);}
+}
 .pessoas {
     background: url(images/pessoas.png) top center no-repeat;
     width: 39%;
