@@ -1101,7 +1101,7 @@ span.placeholder {
 }
 
 .pag-blog {
-    background: url(images/header5.png);
+    background: url(images/header5.png) top center;
     height: 268px;
     padding: 70px;
 }
@@ -1534,7 +1534,23 @@ span.placeholder {
     bottom: -51px;
 }
 
-.text-mais-vagas {background: #fff url(images/digitalvagas.png) top left no-repeat;padding: 34px 76px;color: #000000;border: 1px solid #00000021;line-height: 19px;font-size: 0.9rem;margin-bottom: 20px;text-align: justify;}
+.infos-sobre-vagas a:hover {
+    background: #fff;
+    color: var(--azul);
+}
+
+
+.text-mais-vagas {
+    background: #fff url(images/digitalvagas.png) top left no-repeat;
+    padding: 30px 90px;
+    color: #000000;
+    border: 1px solid #00000021;
+    line-height: 19px;
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-family: "DINPro";
+}
 
 .vagas-leia h6 {
     color: var(--azul);
@@ -1568,14 +1584,14 @@ span.placeholder {
 
 .text-mais-infos {
     background: #fff;
-    padding: 25px 35px 25px 162px;
-    color: #00000082;
+    padding: 25px 42px 25px 160px;
     border: 1px solid #00000021;
-    line-height: 21px;
-    font-size: 0.89rem;
+    line-height: 22px;
+    font-size: 0.88rem;
     margin-bottom: 20px;
     text-align: justify;
     position: relative;
+    color: #000000;
 }
  
  
@@ -1774,7 +1790,10 @@ span.placeholder {
     line-height: 21px;
     width: max-content;
 }
-
+.eu-quero a:hover {
+    background: var(--azul);
+    color: #fff;
+}
 .box-ed-executiva-querotrinamento {
     width: 33%;
     margin-right: 0px;
