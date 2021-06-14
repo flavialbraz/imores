@@ -453,11 +453,13 @@ input#s {
 }
 @-webkit-keyframes mudaback {
   0% {
-   filter:grayscale(0);
+   filter:grayscale(0.60);
 }
   100% {
-  filter:grayscale(0.60);}
+  filter:grayscale(0);}
 }
+
+
 .consultoria-home h1 > a {
     display: block;
     font-size: .99rem;
