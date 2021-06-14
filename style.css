@@ -242,7 +242,7 @@ i.fab.fa-facebook-f, i.fab.fa-youtube, i.fab.fa-instagram {
     margin-left: -75px;
 }
  .text-mais-infos::after {
-        background: url(images/cursos2.png) top center no-repeat;
+        background: url(images/cursosm.png) top center no-repeat;
         position: absolute;
         left: -7px;
         content: "";
